@@ -1,0 +1,27 @@
+@import "../../styles/variables";
+
+.dashboard {
+  padding-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profile {
+  width: 20rem;
+  border-radius: 10%;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .links {
+    font-size: 1.5rem;
+    color: $clr-blue;
+  }
+  .links:hover {
+    text-decoration: underline;
+    color: $clr-faded-blue;
+  }
+}
